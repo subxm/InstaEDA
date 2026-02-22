@@ -1,0 +1,49 @@
+# ============================================================================
+# Files to ignore during deployment to Posit Connect
+# ============================================================================
+
+# Documentation files (not needed in deployment)
+README.md
+QUICK_START.md
+COMPLETE_GUIDE.md
+ARCHITECTURE.md
+PROJECT_SUMMARY.md
+FILE_INDEX.md
+BUG_FIX_NOTES.md
+DEPLOYMENT_GUIDE.md
+
+# Installation script (not needed in deployment)
+install_packages.R
+
+# Deployment script
+deploy.R
+
+# Generated reports directory (empty)
+reports/
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# System files
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Log files
+*.log
+
+# Testing files
+tests/
+test_*.R
